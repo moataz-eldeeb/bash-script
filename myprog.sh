@@ -64,6 +64,8 @@ case $INPUT in
 	5)ls -l;;
 
 	6)echo "Bye"
+	sleep 1
+	clear
 	exit 1;;
 esac
 done
